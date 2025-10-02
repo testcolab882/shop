@@ -27,6 +27,7 @@ else if (NODE_ENV === "production") {
   app.use("/", express.static(frontendPath));
 }
 else{
+  console.log("please set NODE_ENV variable")
   process.exit(1);
 }
 
