@@ -1,9 +1,9 @@
 const Footer=()=>{
     const year=new Date().getFullYear()
     return <>
-        <div className="text-center">
+        <footer className="text-center w-full max-w-280 mx-auto">
             Shop &copy; {year}
-        </div>
+        </footer>
     </>
 }
 

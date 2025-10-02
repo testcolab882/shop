@@ -1,0 +1,11 @@
+{
+  "name": "shop",
+  "scripts": {
+    "build": "npm run build -w frontend && npm run build -w backend && cp -r frontend/dist backend/dist/frontend-dist",
+    "start": "node backend/dist/index.js"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}

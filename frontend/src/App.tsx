@@ -15,14 +15,14 @@ import Footer from "./components/Footer.tsx";
 function App() {
 
   return (
-    <>
+    <div className="flex flex-col h-screen">
       <Header />
-      <main>
+      <main className="py-4 px-3 w-full max-w-280 mx-auto grow">
         <Outlet/>
       </main>
       <Footer />
       <Loading />
-    </>
+    </div>
   )
 }
 
