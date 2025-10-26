@@ -3,7 +3,12 @@
 const LoginPage = () => {
     return <>
         {/* <Layout> */}
-            home
+            <div className="">
+                <label>
+                    <label htmlFor="">password</label>
+                    <input type="password" />
+                </label>
+            </div>
         {/* </Layout> */}
     </>
 }
